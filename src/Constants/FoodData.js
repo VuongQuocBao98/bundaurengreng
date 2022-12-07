@@ -49,5 +49,6 @@ export const LIST_FOODS = [
     img3: "",
     time: "",
     isHome: true,
+    isCheck: true,
   },
 ];

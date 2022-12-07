@@ -7,7 +7,7 @@ export default function MainMenu() {
       <h4 className="font-LHanoienne text-[#D00000] text-[24px]">Món CHính</h4>
       <div className="grid grid-cols-3 gap-10 mt-5">
         {LIST_FOODS.map((item, index) => {
-          if (item.price.length > 3) {
+          if (!item.isCheck) {
             return (
               <div
                 className="border-[3px] border-black p-[1px] rounded-[10%] hover:bg-[#FDDE45] col-span-3 md:col-span-1 group"
