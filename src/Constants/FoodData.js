@@ -43,7 +43,7 @@ export const LIST_FOODS = [
     des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
     rau thơm`,
     detail: "",
-    price: "",
+    price: "19.000",
     img1: "",
     img2: "",
     img3: "",
