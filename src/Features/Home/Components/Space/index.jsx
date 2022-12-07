@@ -22,8 +22,8 @@ export default function Space() {
           TIỆN NGHI
         </h3>
         {/* SPACE  */}
-        <div className="grid grid-cols-2 pt-8 pb-14 px-6 md:px-0">
-          <div className="flex flex-col gap-6 md:gap-[40px] col-span-2 md:pb-0 pb-6 md:col-span-1 items-center justify-center">
+        <div className="grid grid-cols-5 pt-8 pb-14 px-6 md:px-0 gap-4 md:gap-9">
+          <div className="flex flex-col gap-6 md:gap-[40px] col-span-5 md:pb-0 pb-6 md:col-span-2 items-center justify-center">
             <div>
               <img
                 src="/images/home/space2.png"
@@ -39,7 +39,7 @@ export default function Space() {
               />
             </div>
           </div>
-          <div className="w-[100%] col-span-2 md:col-span-1 max-w-[650px] items-center m-auto">
+          <div className="w-[100%] col-span-5 md:col-span-3 max-w-[650px] items-center m-auto">
             <Slider {...settings}>
               <div className="px-1">
                 <img
