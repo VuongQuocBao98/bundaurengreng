@@ -21,7 +21,7 @@ export default function JobItem({ item }) {
               );
             })}
           </div>
-          <div className="flex justify-center items-center w-[30%] md:w-[20%] relative">
+          <div className="flex justify-center items-center w-[40%] md:w-[20%] relative">
             <img
               src="/images/icons/btn.png"
               className="cursor-pointer"

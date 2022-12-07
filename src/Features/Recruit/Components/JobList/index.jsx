@@ -11,7 +11,10 @@ export default function JobList() {
         </h3>
         {LIST_JOB.map((item, index) => {
           return (
-            <div className="flex gap-[20px] mb-5" key={index}>
+            <div
+              className="flex flex-col md:flex-row gap-[20px] mb-5"
+              key={index}
+            >
               <JobItem item={item} />
             </div>
           );

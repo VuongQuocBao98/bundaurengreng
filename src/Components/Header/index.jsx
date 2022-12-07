@@ -94,22 +94,35 @@ export default function Header() {
               className="absolute left-[5%] rotate-2 bottom-[30%] animate-pings"
               alt="Bún Đậu"
             />
-            <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
-              Câu Chuyện
-            </p>
-            <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
-              Thực Đơn
-            </p>
-            <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
-              Bảng Tin - Khuyến Mãi
-            </p>
-            <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
-              Chi Nhánh
-            </p>
+            <NavLink to="/">
+              <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
+                Câu Chuyện
+              </p>
+            </NavLink>
 
-            <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
-              Tuyển dụng
-            </p>
+            <NavLink to="/thuc-don">
+              <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
+                Thực Đơn
+              </p>
+            </NavLink>
+
+            <NavLink to="/bang-tin">
+              <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
+                Bảng Tin - Khuyến Mãi
+              </p>
+            </NavLink>
+
+            <NavLink to="/chi-nhanh">
+              <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
+                Chi Nhánh
+              </p>
+            </NavLink>
+
+            <NavLink to="/tuyen-dung">
+              <p className="cursor-pointer z-10 text-[16px] bg-[#200F06] px-[15px] py-[8px] min-w-[152px] w-[170px] text-center">
+                Tuyển dụng
+              </p>
+            </NavLink>
           </div>
         </div>
       </div>
