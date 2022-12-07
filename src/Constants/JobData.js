@@ -1,0 +1,51 @@
+export const LIST_JOB = [
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+  {
+    img: "/images/data/job/j1.png",
+    title: "Nhân viên phục vụ",
+    des: "Do nhu cầu mở rộng cũng như tăng chất lượng dịch vụ Reng Reng cần tuyển thêm nhân viên ở nhiều vị trí",
+    require: ["Tốt nghiệp THPT", "Có thể làm T7 Cn"],
+    link: "",
+  },
+];
