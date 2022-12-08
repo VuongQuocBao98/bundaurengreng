@@ -2,8 +2,7 @@ export const LIST_SUB_FOODS = [
   {
     title: "Ốc bưu nhồi",
     thumbnail: "/images/data/sub_food/s1.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-      rau thơm`,
+    des: ``,
     detail: "",
     price: "56.000",
     img1: "",
@@ -15,8 +14,7 @@ export const LIST_SUB_FOODS = [
   {
     title: "Dồi sụn rán",
     thumbnail: "/images/data/sub_food/s2.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-      rau thơm`,
+    des: ``,
     detail: "",
     price: "75.000",
     img1: "",

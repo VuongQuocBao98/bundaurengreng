@@ -11,7 +11,7 @@ export default function Map({ data }) {
 function MapData({ data }) {
   const center = { lat: data.lat, lng: data.lng };
   return (
-    <div className="md:h-[50vh] h-[30vh]">
+    <div className="md:h-[20vh] lg:h-[30vh] xl:h-[40vh] 2xl:h-[50vh] h-[30vh]">
       <GoogleMap
         zoom={17}
         center={center}

@@ -5,12 +5,12 @@ export default function MainMenu() {
   return (
     <div className="container px-8 flex flex-col pb-[60px]">
       <h4 className="font-LHanoienne text-[#D00000] text-[24px]">Món CHính</h4>
-      <div className="grid grid-cols-3 gap-10 mt-5">
+      <div className="grid grid-cols-6 gap-10 mt-5">
         {LIST_FOODS.map((item, index) => {
           if (!item.isCheck) {
             return (
               <div
-                className="border-[3px] border-black p-[1px] rounded-[10%] hover:bg-[#FDDE45] col-span-3 md:col-span-1 group"
+                className="border-[3px] border-black p-[1px] rounded-[10%] hover:bg-[#FDDE45] col-span-6 md:col-span-3 lg:col-span-2 group min-w-[300px]"
                 key={index}
               >
                 <div className="border-[2px] border-[#FDDE45] rounded-[10%] overflow-hidden h-[100%] relative">

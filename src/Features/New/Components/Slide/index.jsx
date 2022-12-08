@@ -1,8 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { LIST_NEWS } from "../../../../Constants/NewData";
+import { convertSlug } from "../../../../utils";
 
 export default function Slide() {
   return (
-    <div className="flex items-center bg-[#fffceb] overflow-hidden hotdeal-wp flex-col pb-4">
+    <div className="flex items-center bg-[#fffceb] overflow-hidden hotdeal-wp flex-col pb-10">
       <div className="container px-8 flex items-center flex-col">
         <h3 className="text-[20px] text-center md:text-[48px] font-LHanoienne pt-[40px] pb-4">
           TIN MỚI NHẤT TỪ <span className="text-[#89AD3F]">RENG RENG</span>
@@ -46,28 +49,38 @@ export default function Slide() {
                       alt="btn"
                     />
                     <p className="font-LHanoienne text-[#D00000]  font-bold text-center items-center flex justify-center absolute cursor-pointer">
-                      12/10/2022
+                      {LIST_NEWS[0].time}
                     </p>
                   </div>
                 </div>
                 <h3 className="font-LHanoienne text-[22px] mt-4">
-                  Ú ÒA!! CẶP ĐÔI HÀNG XÓM ĐẬU x CỘNG PHÁT QUÀ SIÊU YÊU
+                  {LIST_NEWS[0].title}
                 </h3>
                 <p className="font-Montser text-[14px] mt-2">
-                  Người nhà ơi! Đậu xin hoan hỉ báo tin mừng. Đậu Homemade và
-                  “mai-đẹt-ti-ni” Cộng Cà Phê lại kết hợp mang đến chương trình
-                  hoàn tiền hấp dẫn như sau:…
+                  {LIST_NEWS[0].des}
                 </p>
-                <div className="flex justify-center items-center ml-auto relative mt-2">
-                  <img
-                    src="/images/icons/btn.png"
-                    className="cursor-pointer"
-                    alt="btn"
-                  />
-                  <p className="font-LHanoienne text-center items-center flex justify-center absolute cursor-pointer">
-                    Ứng Tuyển
-                  </p>
-                </div>
+                <NavLink
+                  to={`/bai-viet/${convertSlug(LIST_NEWS[0].title)}-${
+                    LIST_NEWS[0].id
+                  }`}
+                  className="ml-auto"
+                >
+                  <div className="flex justify-center items-center ml-auto relative mt-2 group mb-4">
+                    <img
+                      src="/images/icons/btn.png"
+                      className="cursor-pointer group-hover:hidden"
+                      alt="btn"
+                    />
+                    <img
+                      src="/images/icons/btn-ac.png"
+                      className="cursor-pointer hidden group-hover:flex"
+                      alt="btn"
+                    />
+                    <p className="font-LHanoienne text-center items-center flex justify-center absolute cursor-pointer group-hover:text-white">
+                      Xem Thêm
+                    </p>
+                  </div>
+                </NavLink>
               </div>
             </div>
           </div>

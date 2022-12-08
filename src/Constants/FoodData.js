@@ -2,7 +2,7 @@ export const LIST_FOODS = [
   {
     title: "BÚN ĐẬU ĐẦY ẮP (3-4 người ăn)",
     thumbnail: "/images/data/food/thumb-bun-dau-day-ap.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả cua, chả ốc, chả chiên, dồi sụn, cà pháo, rau thơm`,
     detail: "",
     price: "69.000",
     img1: "",
@@ -14,8 +14,7 @@ export const LIST_FOODS = [
   {
     title: "Bún đậu no nê (2 người ăn)",
     thumbnail: "/images/data/food/thumb-bun-dau-no-ne-2ng.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-    rau thơm`,
+    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả chiên, cà pháo, rau thơm`,
     detail: "",
     price: "56.000",
     img1: "",
@@ -27,8 +26,7 @@ export const LIST_FOODS = [
   {
     title: "BÚN ĐẬU MẮM TÔM",
     thumbnail: "/images/data/food/thumb-bun-dau-mam-tom.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-    rau thơm`,
+    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả giò, chả chiên, cà pháo, rau thơm`,
     detail: "",
     price: "75.000",
     img1: "",
@@ -36,19 +34,5 @@ export const LIST_FOODS = [
     img3: "",
     time: "",
     isHome: true,
-  },
-  {
-    title: "cà pháo muối",
-    thumbnail: "/images/data/food/ca-phao.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-    rau thơm`,
-    detail: "",
-    price: "19.000",
-    img1: "",
-    img2: "",
-    img3: "",
-    time: "",
-    isHome: true,
-    isCheck: true,
   },
 ];

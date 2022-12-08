@@ -44,30 +44,30 @@ export default function HotDeal() {
           <div className="relative smooth md:col-span-1 col-span-2 mx-auto p-[40px] cursor-pointer group overflow-hidden transition-all ease-linear duration-[1s] delay-150">
             <img src="/images/home/hotdeal-thumnail.png" alt="hotdeal" />
             <img
-              className="absolute top-[4%] right-[5%] md:w-auto w-[35%]"
+              className="absolute top-[4%] right-[5%] lg:w-auto w-[35%]"
               src={`/images/home/${changeDeal}.png`}
               alt="hotdeal"
             />
             <img
-              className="absolute smooth transition-all ease-linear duration-75 md:group-hover:bottom-0 bottom-0 left-0 md:group-hover:left-[0px] md:left-[-34%] md:w-auto w-[35%] md:bottom-[0px]"
+              className="absolute smooth transition-all ease-linear duration-75 lg:group-hover:bottom-0 bottom-0 left-0 lg:group-hover:left-[0px] lg:left-[-34%] lg:w-auto w-[35%] lg:bottom-[0px]"
               src={`/images/home/hotdeal-chanh.png`}
               alt="hotdeal"
             />
             <img
-              className="absolute smooth transition-all ease-linear duration-75 md:group-hover:top-0 top-0 left-0 md:group-hover:left-[0px] md:left-[-34%] md:w-auto w-[35%] md:top-[0px]"
+              className="absolute smooth transition-all ease-linear duration-75 lg:group-hover:top-0 top-0 left-0 lg:group-hover:left-[0px] lg:left-[-34%] lg:w-auto w-[35%] lg:top-[0px]"
               src={`/images/home/hotdeal-tac.png`}
               alt="hotdeal"
             />
             <img
-              className="absolute smooth transition-all ease-linear duration-75 md:group-hover:bottom-0 bottom-0 right-0 md:group-hover:right-[0px] md:right-[-34%] md:w-auto w-[35%] md:bottom-[0px]"
+              className="absolute smooth transition-all ease-linear duration-75 lg:group-hover:bottom-0 bottom-0 right-0 lg:group-hover:right-[0px] lg:right-[-34%] lg:w-auto w-[35%] lg:bottom-[0px]"
               src={`/images/home/hotdeal-mam.png`}
               alt="hotdeal"
             />
-            <img
+            {/* <img
               className="absolute smooth transition-all ease-linear duration-75 md:group-hover:top-0 top-0 right-0 md:group-hover:right-[0px] md:right-[-34%] md:w-auto w-[35%] md:top-[0px]"
               src={`/images/home/hotdeal-rau.png`}
               alt="hotdeal"
-            />
+            /> */}
           </div>
           <div className="md:col-span-1 col-span-2 pl-[20px]">
             <h4 className="font-LHanoienne text-[18px] md:text-[40px] max-w-[450px]">
@@ -75,11 +75,11 @@ export default function HotDeal() {
             </h4>
             <p className="max-w-[450px] font-Montser text-[15px] md:text-[24px] pt-3">
               Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả
-              cua, chả ốc, dồi sụn, rau thơm
+              cua, chả ốc, chả chiên, dồi sụn, cà pháo, rau thơm
             </p>
             <div className="flex mt-4 justify-center md:justify-start">
               <NavLink to="/thuc-don">
-                <p className="font-LHanoienne font-bold text-[16px] md:text-[20px] px-[25px] py-[9px] bg-[#FEE046] rounded-[15px] cursor-pointer hover:border-[2px] hover:border-[#200F06]">
+                <p className="font-LHanoienne font-bold text-[16px] md:text-[20px] px-[25px] py-[9px] bg-[#FEE046] rounded-[15px] cursor-pointer hover:border-[2px] hover:border-[#200F06] hover:shadow-xl hover:text-white hover:bg-[#D00000]">
                   XEM THÊM MENU
                 </p>
               </NavLink>
@@ -90,13 +90,13 @@ export default function HotDeal() {
 
       {/* list hot item  */}
 
-      <div className="container px-20 pb-[40px]">
-        <div className="flex gap-8 justify-center md:flex-row flex-col">
+      <div className="container lg:px-20 pb-[40px]">
+        <div className="flex gap-14 justify-center md:flex-row flex-col">
           {/* item  */}
           {LIST_FOODS.map((item, index) => {
             return (
               <div
-                className={`border-[3px] border-black p-[1px] rounded-[10%] hover:bg-[#FDDE45] ${
+                className={`border-[3px] border-black p-[1px] rounded-[10%] hover:bg-[#FDDE45] max-w-[439px] ${
                   !item.isHome && "hidden"
                 }`}
                 key={index}

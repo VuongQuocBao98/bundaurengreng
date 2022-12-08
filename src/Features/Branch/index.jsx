@@ -9,14 +9,14 @@ export default function Branch() {
   const [selectBranch, setselectBranch] = useState(BRANCH_LIST[0]);
 
   return (
-    <>
+    <div>
       <Header />
-      <div className="sp flex items-center bg-[#fffceb] bg-icon overflow-hidden flex-col">
+      <div className="sp flex items-center bg-[#fffceb] bg-icon overflow-hidden flex-col md:min-h-[1080px]">
         <div className="container px-8 flex items-center flex-col pb-12">
           <div className="grid grid-cols-5 md:gap-20 gap-0 w-full">
             <div className="md:col-span-2 col-span-5 flex flex-col items-center md:justify-start md:items-end">
               <div className="flex flex-col items-center">
-                <h3 className="text-[28px] pb-10 text-center md:text-[48px] font-LHanoienne pt-[40px]">
+                <h3 className="text-[28px] pb-10 text-center md:text-[32px] lg:text-[48px] font-LHanoienne pt-[40px]">
                   cửa hàng
                 </h3>
                 {BRANCH_LIST.map((item, index) => {
@@ -80,6 +80,6 @@ export default function Branch() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

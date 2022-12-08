@@ -78,7 +78,10 @@ export default function Space() {
             {LIST_NEWS.map((item, index) => {
               if (item.home) {
                 return (
-                  <div className="p-[1px] rounded-[5%] group" key={item.id}>
+                  <div
+                    className="p-[1px] rounded-[10%] group max-w-[439px] border-[2px]"
+                    key={item.id}
+                  >
                     <div className="rounded-[10%] overflow-hidden h-[100%] relative">
                       <NavLink
                         to={`/bai-viet/${convertSlug(item.title)}-${item.id}`}
@@ -90,17 +93,17 @@ export default function Space() {
                         />
                       </NavLink>
 
-                      <p className="pt-4 font-bold text-[#908679] text-[14px] md:text-[16px]">
+                      <p className="pt-4 font-bold text-[#908679] text-[14px] md:text-[16px] px-3">
                         {item.time}
                       </p>
                       <NavLink
                         to={`/bai-viet/${convertSlug(item.title)}-${item.id}`}
                       >
-                        <h4 className="font-LHanoienne uppercase pt-[10px] pb-[10px] text-[18px] md:text-[24px] font-bold group-hover:text-[#D00000]">
+                        <h4 className="font-LHanoienne uppercase pt-[10px] pb-[10px] text-[18px] px-3 md:text-[24px] font-bold group-hover:text-[#D00000]">
                           {item.title}
                         </h4>
                       </NavLink>
-                      <p className="font-Montser pb-[40px] text-[14px] md:text-[16px]">
+                      <p className="font-Montser pb-[40px] text-[14px] md:text-[16px] px-3">
                         {item.des}
                       </p>
                       {item.hotTitle.length > 0 && (

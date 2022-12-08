@@ -6,9 +6,13 @@ export default function Header() {
   const [menuActive, setmenuActive] = useState(false);
   return (
     <div className="flex justify-center bg-[#200F06]">
-      <div className="flex justify-center gap-[140px] items-center md:items-end container px-8 text-white md:pt-[15px] pt-[5px] pb-[10px] md:pb-[25px]">
+      <div className="flex justify-center gap-[140px] items-center md:items-end container px-8 text-white md:pt-[15px] pt-[0px] pb-[0px] md:pb-[25px]">
         <div>
-          <img src="/images/logo.png" alt="Bún đậu reng reng" />
+          <img
+            src="/images/logo.png"
+            className="md:scale-[1] scale-[0.8]"
+            alt="Bún đậu reng reng"
+          />
         </div>
         <div className="hidden font-LHanoienne md:gap-6 lg:gap-10 md:flex">
           <NavLink to="/">

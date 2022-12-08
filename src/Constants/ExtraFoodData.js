@@ -2,7 +2,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Nem chua rán",
     thumbnail: "/images/data/ex_food/e1.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, rau thơm`,
+    des: ``,
     detail: "",
     price: "56.000",
     img1: "",
@@ -14,8 +14,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Chả giò",
     thumbnail: "/images/data/ex_food/e2.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-      rau thơm`,
+    des: ``,
     detail: "",
     price: "75.000",
     img1: "",
@@ -27,8 +26,7 @@ export const LIST_EX_FOODS = [
   {
     title: "thịt luộc",
     thumbnail: "/images/data/ex_food/e3.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò,
-      rau thơm`,
+    des: ``,
     detail: "",
     price: "42.000",
     img1: "",
@@ -40,7 +38,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Đậu hũ",
     thumbnail: "/images/data/ex_food/e4.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: ``,
     detail: "",
     price: "69.000",
     img1: "",
@@ -52,7 +50,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Chả cốm",
     thumbnail: "/images/data/ex_food/e5.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: ``,
     detail: "",
     price: "69.000",
     img1: "",
@@ -64,7 +62,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Chả ốc",
     thumbnail: "/images/data/ex_food/e6.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: ``,
     detail: "",
     price: "69.000",
     img1: "",
@@ -76,7 +74,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Rau thơm",
     thumbnail: "/images/data/ex_food/e7.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: ``,
     detail: "",
     price: "10.000",
     img1: "",
@@ -88,7 +86,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Bún lá",
     thumbnail: "/images/data/ex_food/e8.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: ``,
     detail: "",
     price: "19.000",
     img1: "",
@@ -100,7 +98,7 @@ export const LIST_EX_FOODS = [
   {
     title: "Cà Pháo Muôi",
     thumbnail: "/images/data/ex_food/e9.png",
-    des: `(Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa, chả cua, chả ốc, rau thơm`,
+    des: ``,
     detail: "",
     price: "39.000",
     img1: "",

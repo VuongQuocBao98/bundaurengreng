@@ -51,24 +51,27 @@ export default function NewFeed() {
         </div>
         <div className="pt-5 flex flex-col">
           <div className="grid grid-cols-2 gap-[30px]">
-            <p className="font-Montser col-span-2 md:col-span-1 md:max-w-[500px]">
-              <span className="md:mr-[40px] mr-[20px]"> </span> Hà Nội là cái
-              nôi của một nền ẩm thực giản dị, đơn sơ nhưng chứa đựng trong từng
-              món ăn sự chăm chút, tinh tế và tỉ mỉ của người nấu. Chỉ cần một
-              chút thay đổi trong cách chế biến thì người Hà Nội cũng nhận ra
-              món ăn đã bị biến thể ít nhiều. Đến đậu hũ cho món bún đậu cũng
-              phải chiên lửa thật khéo, để mặt ngoài vẫn giòn nhưng bên trong
-              thì đậu vẫn còn mềm, béo và thơm khi cắt ra, hay đến món chả rươi
-              cũng phải làm thật kỹ lưỡng để chả không bị khô, và rươi trong chả
-              vẫn không bị mất vị. Đến chén nước chấm cũng phải tỉ mỉ trong từng
-              nguyên liệu thêm vào, vì chỉ thiếu một thành phần thì phần linh
-              hồn của món ăn đã mất đi quá nửa.
+            <p className="font-Montser col-span-2 lg:col-span-1 lg:max-w-[500px] items-center text-[15px]">
+              <span className="md:mr-[40px] mr-[20px]"> </span> Bún đậu mắm tôm
+              là món ăn đơn giản, dân dã trong ẩm thực và in đậm dấu ấn trong
+              cuộc sống thường nhật miền Bắc Việt Nam. Không phải cao lương mỹ
+              vị cao sang hay là những thứ quý giá đắt tiền, vị thơm đậm đà, đặc
+              trưng của mắm tôm, giòn giòn của đậu rán, mùi cốm thơm ngát phảng
+              phất hương thơm của lá sen trong từng miếng chả cốm, các nguyên
+              liệu rất đơn giản nhưng lại hấp dẫn ngay các bạn ngay ở miếng đầu
+              tiên. Nếu như thời xưa miếng trầu là đầu câu chuyện, thì hiện nay
+              ngồi quây quần xung quanh mẹt bún sẽ là nơi gắn kết mọi người lại
+              với nhau. Cùng nhau ngồi quây quần bên mẹt bún đậu tròn, cùng trò
+              chuyện rôm rả, chia sẻ về ngày hôm nay thế nào,... cùng nhắm miếng
+              bún, miếng đậu, chấm cùng với chén mắm tôm thơm lừng.
+              <br />
+              <span className="md:mr-[40px] mr-[20px]"> </span> Đến với Bún đậu
+              Reng Reng các bạn sẽ được thưởng thức món bún đậu mắm tôm ngon
+              đúng điệu Hà Nội.
             </p>
-            <img
-              className="col-span-2 md:col-span-1"
-              src="/images/home/feed-img1.png"
-              alt="feed"
-            />
+            <div className="col-span-2 lg:col-span-1 flex items-center justify-center">
+              <img src="/images/home/feed-img1.png" alt="feed" />
+            </div>
           </div>
           <div className="pt-[20px] pb-[30px]">
             <img className="" src="/images/home/feed-img2.png" alt="feed" />

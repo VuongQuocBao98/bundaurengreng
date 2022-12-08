@@ -2,6 +2,12 @@
   position: absolute !important;
   bottom: 35px !important;
 }
+@media (max-width: 768px) {
+  .slick-slider.slick-initialized ul.slick-dots {
+    position: absolute !important;
+    bottom: 15px !important;
+  }
+}
 .slick-dots li:first-child button:before {
   width: 23px;
   height: 23px;
