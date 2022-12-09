@@ -24,7 +24,7 @@ export const LIST_NEWS = [
     img1: "",
     img2: "",
     img3: "",
-    time: "18/12/2022",
+    time: "28/12/2022",
     hotTitle: "spec",
     home: true,
   },

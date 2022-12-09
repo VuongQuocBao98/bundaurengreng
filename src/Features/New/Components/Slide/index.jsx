@@ -15,7 +15,7 @@ export default function Slide() {
             <div className="border-[2px] border-yellow-500 grid grid-cols-5 rounded-[30px] md:gap-10 gap-4 max-w-[960px] overflow-hidden relative">
               <img
                 className="col-span-5 md:col-span-3 h-full"
-                src="/images/new/n1.png"
+                src={LIST_NEWS[0].thumbnail}
                 alt=""
               />
               <div className="absolute md:top-[3%] md:left-[2%] md:scale-[1] top-[-2%] left-[-5%] scale-[0.6]">

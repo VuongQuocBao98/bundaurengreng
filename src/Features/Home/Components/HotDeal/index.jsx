@@ -39,10 +39,14 @@ export default function HotDeal() {
       </div>
 
       {/* hot item  */}
-      <div className="container px-10 flex justify-center mt-8 pb-8">
+      <div className="container lg:px-10 flex justify-center mt-8 pb-8">
         <div className="grid grid-cols-2 gap-[20px] items-center">
-          <div className="relative smooth md:col-span-1 col-span-2 mx-auto p-[40px] cursor-pointer group overflow-hidden transition-all ease-linear duration-[1s] delay-150">
-            <img src="/images/home/hotdeal-thumnail.png" alt="hotdeal" />
+          <div className="relative smooth md:col-span-1 col-span-2 mx-auto p-[20px] lg:p-[40px] cursor-pointer group overflow-hidden transition-all ease-linear duration-[1s] delay-150">
+            <img
+              src="/images/home/hotdeal-thumnail.png"
+              className=""
+              alt="hotdeal"
+            />
             <img
               className="absolute top-[4%] right-[5%] lg:w-auto w-[35%]"
               src={`/images/home/${changeDeal}.png`}
@@ -75,7 +79,7 @@ export default function HotDeal() {
             </h4>
             <p className="max-w-[450px] font-Montser text-[15px] md:text-[24px] pt-3">
               Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả
-              cua, chả ốc, chả chiên, dồi sụn, cà pháo, rau thơm
+              cua, chả ốc, chả sụn, chả lụa chiên, cà pháo, rau thơm
             </p>
             <div className="flex mt-4 justify-center md:justify-start">
               <NavLink to="/thuc-don">
@@ -90,7 +94,7 @@ export default function HotDeal() {
 
       {/* list hot item  */}
 
-      <div className="container lg:px-20 pb-[40px]">
+      <div className="container px-5 lg:px-20 pb-[40px]">
         <div className="flex gap-14 justify-center md:flex-row flex-col">
           {/* item  */}
           {LIST_FOODS.map((item, index) => {

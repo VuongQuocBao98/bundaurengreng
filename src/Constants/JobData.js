@@ -13,7 +13,7 @@ export const LIST_JOB = [
   {
     img: "/images/data/job/j1.png",
     title: "Nhân Viên Bếp Trung Tâm",
-    des: "Reng Reng đang tuyển BẾP TRUNG T M, biết đâu mình có duyên phận trở thành “người một nhà”, apply ngay nhé",
+    des: "Reng Reng đang tuyển BẾP TRUNG TÂM, biết đâu mình có duyên phận trở thành “người một nhà”, apply ngay nhé",
     require: [
       "Tuổi từ 20t – 40t",
       "Sức khỏe tốt",

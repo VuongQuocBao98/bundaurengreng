@@ -58,7 +58,7 @@ export default function NewFeed() {
               vị cao sang hay là những thứ quý giá đắt tiền, vị thơm đậm đà, đặc
               trưng của mắm tôm, giòn giòn của đậu rán, mùi cốm thơm ngát phảng
               phất hương thơm của lá sen trong từng miếng chả cốm, các nguyên
-              liệu rất đơn giản nhưng lại hấp dẫn ngay các bạn ngay ở miếng đầu
+              liệu rất đơn giản nhưng lại hấp dẫn các bạn ngay ở những miếng đầu
               tiên. Nếu như thời xưa miếng trầu là đầu câu chuyện, thì hiện nay
               ngồi quây quần xung quanh mẹt bún sẽ là nơi gắn kết mọi người lại
               với nhau. Cùng nhau ngồi quây quần bên mẹt bún đậu tròn, cùng trò

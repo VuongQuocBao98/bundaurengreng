@@ -40,7 +40,7 @@ function BackToTop() {
         🔺
       </button> */}
       <img
-        className="fixed bottom-[0%] z-50 animate-fade md:right-[-1%] right-[-4%] cursor-pointer lg:w-[20%] 2xl:w-auto w-[34%]"
+        className="fixed bottom-[0%] z-50 animate-fade md:right-[-1%] right-[-4%] cursor-pointer lg:w-[20%] 2xl:w-auto md:w-[25%] w-[34%]"
         onClick={scrollToTop}
         src="/images/icons/fix-icon.png"
         alt="backtotop"

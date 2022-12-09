@@ -30,7 +30,7 @@ export default function Banner() {
         <div className="md:max-h-[420px] lg:max-h-[470px] xl:max-h-[650px] 2xl:max-h-[750px]">
           <img
             className="w-[100%] h-[100%] object-contain"
-            src="/images/home/banner1.png"
+            src="/images/home/banner3.png"
             alt="bn1"
           />
         </div>
