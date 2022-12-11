@@ -1,7 +1,7 @@
 export const BRANCH_LIST = [
   {
     id: 1,
-    name: "146E GÒ DẦU",
+    name: "GÒ DẦU",
     lat: 10.796080628939624,
     lng: 106.62325032863819,
     location: "146e Gò Dầu, Phường Tân Quý, Quận Tân Phú, Tp Hồ Chí Minh",

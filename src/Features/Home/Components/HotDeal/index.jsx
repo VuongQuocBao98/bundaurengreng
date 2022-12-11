@@ -41,7 +41,7 @@ export default function HotDeal() {
       {/* hot item  */}
       <div className="container lg:px-10 flex justify-center mt-8 pb-8">
         <div className="grid grid-cols-2 gap-[20px] items-center">
-          <div className="relative smooth md:col-span-1 col-span-2 mx-auto p-[20px] lg:p-[40px] cursor-pointer group overflow-hidden transition-all ease-linear duration-[1s] delay-150">
+          <div className="relative smooth lg:col-span-1 col-span-2 mx-auto p-[20px] lg:p-[40px] cursor-pointer group overflow-hidden transition-all ease-linear duration-[1s] delay-150">
             <img
               src="/images/home/hotdeal-thumnail.png"
               className=""
@@ -73,7 +73,7 @@ export default function HotDeal() {
               alt="hotdeal"
             /> */}
           </div>
-          <div className="md:col-span-1 col-span-2 pl-[20px]">
+          <div className="lg:col-span-1 col-span-2 pl-[20px] mx-auto lg:mx-0">
             <h4 className="font-LHanoienne text-[18px] md:text-[40px] max-w-[450px]">
               BÚN ĐẬU ĐẦY ẤP (3-4 người ăn)
             </h4>
@@ -81,7 +81,7 @@ export default function HotDeal() {
               Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả
               cua, chả ốc, chả sụn, chả lụa chiên, cà pháo, rau thơm
             </p>
-            <div className="flex mt-4 justify-center md:justify-start">
+            <div className="flex mt-4 justify-center lg:justify-start">
               <NavLink to="/thuc-don">
                 <p className="font-LHanoienne font-bold text-[16px] md:text-[20px] px-[25px] py-[9px] bg-[#FEE046] rounded-[15px] cursor-pointer hover:border-[2px] hover:border-[#200F06] hover:shadow-xl hover:text-white hover:bg-[#D00000]">
                   XEM THÊM MENU
