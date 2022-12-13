@@ -26,7 +26,7 @@ export const LIST_FOODS = [
   {
     title: "BÚN ĐẬU MẮM TÔM",
     thumbnail: "/images/data/food/thumb-bun-dau-mam-tom.png",
-    des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả giò, chả lụa chiên, cà pháo, rau thơm`,
+    des: `Bún lá, đậu hũ, thịt heo luộc, chả giò, chả lụa chiên, cà pháo, rau thơm`,
     detail: "",
     price: "37.000",
     img1: "",
