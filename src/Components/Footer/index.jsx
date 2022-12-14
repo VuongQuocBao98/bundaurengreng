@@ -95,21 +95,40 @@ export default function Footer() {
                 KÊT NỐI VỚI CHÚNG TÔI
               </p>
               <div className="flex pt-5 gap-5 lg:justify-start justify-center">
-                <img
-                  src="/images/icons/fb.png"
-                  className="cursor-pointer hover:scale-[1.1]"
-                  alt="fb"
-                />
-                <img
-                  src="/images/icons/ins.png"
-                  className="cursor-pointer hover:scale-[1.1]"
-                  alt="ins"
-                />
-                <img
-                  src="/images/icons/youtube.png"
-                  className="cursor-pointer hover:scale-[1.1]"
-                  alt="yt"
-                />
+                <a
+                  href="https://www.facebook.com/bundaurengreng"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <img
+                    src="/images/icons/fb.png"
+                    className="cursor-pointer hover:scale-[1.1]"
+                    alt="fb"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/bundaurengreng/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/icons/ins.png"
+                    className="cursor-pointer hover:scale-[1.1]"
+                    alt="ins"
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/@bundaurengreng"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/icons/youtube.png"
+                    className="cursor-pointer hover:scale-[1.1]"
+                    alt="yt"
+                  />
+                </a>
               </div>
             </div>
           </div>
