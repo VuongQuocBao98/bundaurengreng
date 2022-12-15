@@ -26,7 +26,7 @@ export default function Space() {
           <div className="flex flex-col gap-6 md:gap-[40px] col-span-5 md:pb-0 pb-6 md:col-span-2 items-center justify-center">
             <div>
               <img
-                src="/images/home/space2.png"
+                src="/images/home/space1.png"
                 className=" rounded-[10%] "
                 alt="bun dau"
               />
