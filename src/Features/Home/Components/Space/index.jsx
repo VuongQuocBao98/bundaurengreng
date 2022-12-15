@@ -50,14 +50,28 @@ export default function Space() {
               </div>
               <div className="px-1">
                 <img
-                  src="/images/home/space-slide1.png"
+                  src="/images/home/space-slide4.png"
                   className=" rounded-[8%]"
                   alt=""
                 />
               </div>
               <div className="px-1">
                 <img
-                  src="/images/home/space-slide1.png"
+                  src="/images/home/space-slide2.png"
+                  className=" rounded-[8%]"
+                  alt=""
+                />
+              </div>
+              <div className="px-1">
+                <img
+                  src="/images/home/space-slide3.png"
+                  className=" rounded-[8%]"
+                  alt=""
+                />
+              </div>
+              <div className="px-1">
+                <img
+                  src="/images/home/space-slide5.png"
                   className=" rounded-[8%]"
                   alt=""
                 />

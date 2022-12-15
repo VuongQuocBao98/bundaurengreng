@@ -1,6 +1,6 @@
 .slick-slider.slick-initialized ul.slick-dots {
   position: absolute !important;
-  bottom: 35px !important;
+  bottom: 15px !important;
 }
 @media (max-width: 768px) {
   .slick-slider.slick-initialized ul.slick-dots {
@@ -15,7 +15,7 @@
   border-right: 20px;
   font-size: 50px !important;
   content: "" !important;
-  background-color: #fffceb;
+  background-color: #200f06;
   clip-path: polygon(
     29% 6%,
     69% 6%,
@@ -35,7 +35,7 @@
   border-right: 20px;
   font-size: 50px !important;
   content: "" !important;
-  background-color: #fffceb;
+  background-color: #200f06;
   clip-path: polygon(
     29% 5%,
     69% 6%,
@@ -55,7 +55,7 @@
   border-right: 20px;
   font-size: 50px !important;
   content: "" !important;
-  background-color: #fffceb;
+  background-color: #200f06;
   clip-path: polygon(
     29% 5%,
     69% 6%,
