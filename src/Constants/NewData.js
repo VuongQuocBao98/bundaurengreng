@@ -31,7 +31,7 @@ export const LIST_NEWS = [
     <ul>
       <li>- Chỉ &aacute;p dụng cho kh&aacute;ch h&agrave;ng ăn tại nh&agrave; h&agrave;ng hoặc mua mang về. Kh&ocirc;ng &aacute;p dụng với đơn Đậu giao v&agrave; giao qua app.</li>
       <li>- Chương tr&igrave;nh khuyến m&atilde;i chỉ &aacute;p dụng cho h&oacute;a đơn trong ng&agrave;y.</li>
-      <li>- Chương tr&igrave;nh tặng tr&agrave; tắc chỉ &aacute;p dụng cho b&agrave;n từ hai người trở l&ecirc;n, tr&agrave; tắc sẽ được tặng theo số lượng người ngồi trong b&agrave;n.</li>
+      <li>- Chương tr&igrave;nh tặng tr&agrave; tắc chỉ &aacute;p dụng cho b&agrave;n từ hai người trở l&ecirc;n.</li>
     </ul>
     `,
     price: "",
