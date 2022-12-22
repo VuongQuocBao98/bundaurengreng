@@ -16,7 +16,7 @@ export const LIST_FOODS = [
     thumbnail: "/images/data/food/thumb-bun-dau-no-ne-2ng.png",
     des: `Bún lá, đậu hũ, thịt heo luộc, nem chua rán, chả cốm, chả giò, chả lụa chiên, cà pháo, rau thơm`,
     detail: "",
-    price: "89.000",
+    price: "93.000",
     img1: "",
     img2: "",
     img3: "",

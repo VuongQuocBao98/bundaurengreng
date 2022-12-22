@@ -50,6 +50,11 @@ export default function Branch() {
                     </div>
                   );
                 })}
+                <div className="flex justify-center items-center relative mb-7">
+                  <p className="font-LHanoienne text-center items-center flex justify-center cursor-pointer">
+                    CN2: ???
+                  </p>
+                </div>
               </div>
             </div>
 
