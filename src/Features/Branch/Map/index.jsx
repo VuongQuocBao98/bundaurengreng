@@ -3,7 +3,8 @@ import "./style.css";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 export default function Map({ data }) {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyDn6aXdvyu9kW34MOSTHjUfD_SoE_qgyMg",
+    // googleMapsApiKey: "AIzaSyDn6aXdvyu9kW34MOSTHjUfD_SoE_qgyMg",
+    googleMapsApiKey: "AIzaSyD_6qnegcd5vFoQgrI9byn-4FVpl5avyVk",
   });
   if (!isLoaded) return <div>Loading...</div>;
   return <MapData data={data} />;
